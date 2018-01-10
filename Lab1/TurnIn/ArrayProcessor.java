@@ -25,6 +25,10 @@ public class ArrayProcessor {
                 }
             }
         }
+
+        System.out.println("Sorted array");
+        print3IntArray(anArray);
+
         return anArray;
     }
 
@@ -42,6 +46,9 @@ public class ArrayProcessor {
             }
         }
 
+        System.out.println("Sorted reversed array");
+        print3IntArray(anArray);
+
         return anArray;
     }
 
@@ -50,7 +57,7 @@ public class ArrayProcessor {
     public void print3IntArray(int[] anArray) {
 
         for (int x = 0; x < anArray.length; x++) {
-            System.out.print(anArray[x] + " ");
+            System.out.println("Entry " + x + " is " + anArray[x]);
 
         }
         System.out.println();

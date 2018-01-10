@@ -31,11 +31,10 @@ public class ArrayProgram {
         }
 
         // statements to print and operate on the array created in line 22
+        System.out.println("Original array");
         processor.print3IntArray(anArray);
-        anArray = processor.sort3IntArrays(anArray);
-        processor.print3IntArray(anArray);
-        anArray = processor.reverse3IntArray(anArray);
-        processor.print3IntArray(anArray);
+        processor.sort3IntArrays(anArray);
+        processor.reverse3IntArray(anArray);
 
     }
 

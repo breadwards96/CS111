@@ -1,9 +1,22 @@
 Brandon Edwards
-1/8/18
+1/9/18
 I pledge that this submission is solely my work, and that I have neither given to nor received help from anyone other than the instructor or TAs.
 
+
 run:
-5 1 10 
-1 5 10 
-10 5 1 
+Original array
+Entry 0 is 3
+Entry 1 is 5
+Entry 2 is 1
+
+Sorted array
+Entry 0 is 1
+Entry 1 is 3
+Entry 2 is 5
+
+Sorted reversed array
+Entry 0 is 5
+Entry 1 is 3
+Entry 2 is 1
+
 BUILD SUCCESSFUL (total time: 0 seconds)
